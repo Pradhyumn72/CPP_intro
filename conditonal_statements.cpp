@@ -56,7 +56,7 @@ cin>>c;
         
         case '%':
         
-            cout<<volx%y;
+            cout<<y;
             break;
         default:
         
