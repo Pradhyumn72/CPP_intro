@@ -2,6 +2,8 @@
 // write a program to generate cube of any number 
 // write a program to display simple intrest 
 // WAP to print the area of circle 
+// WAP to convert celsius to fahrenit
+// WAP to convert rupees to dollar
 
 #include <iostream>
 using namespace std;
@@ -38,6 +40,25 @@ int main()
     // cin>>T;
     // Amount = (P*R*T)/100;
     // cout<<"Simple intrest is : \n"<<Amount;
+    // const float p =3.14;
+    // float r;
+    // cout<<"enter radius r \n";
+    // cin>>r;
+    // float circ = 2*p*r;
+    // cout<<"circumference of circle is \n"<<circ;
 
+    // float c ;
+    // float f;
+    // cout<<"enter temperature in celsius ";
+    // cin>>c;
+    // f = 1.8*c + 32;
+    // cout<< "Temperature in fahrenit is " <<f<<endl;
+
+        float inr;
+        float dollar;
+        cout<<"Enter amount you want convert in dollar ";
+        cin>>inr;
+        dollar = inr*86.00;
+        cout<<"Amount in dollar "<<dollar <<"$";
 
 }
