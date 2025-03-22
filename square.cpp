@@ -54,11 +54,25 @@ int main()
     // f = 1.8*c + 32;
     // cout<< "Temperature in fahrenit is " <<f<<endl;
 
-        float inr;
-        float dollar;
-        cout<<"Enter amount you want convert in dollar ";
-        cin>>inr;
-        dollar = inr*86.00;
-        cout<<"Amount in dollar "<<dollar <<"$";
+        // float inr;
+        // float dollar;
+        // cout<<"Enter amount you want convert in dollar ";
+        // cin>>inr;
+        // dollar = inr*86.00;
+        // cout<<"Amount in dollar "<<dollar <<"$";
 
+
+// 4 is how  many string u want to store ,and store one extra the value you want to store as it stores one null value itself that's why
+// took 4 in top...
+// char reassign the variable only by dynamic method (by taking input) and doesn't take static reassigning(without cin)
+
+        // char c[4]="top";
+        // cout<<c;
+        char name[10];
+        int age ;
+        cout<<"Enter your name: ";
+        cin>>name;
+        cout<<"Enter your age: ";
+        cin>>age;
+        cout<<"Your name is "<<name<<" and age is "<<age;
 }
