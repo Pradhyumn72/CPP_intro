@@ -73,6 +73,6 @@ int main()
         cout<<"Enter your name: ";
         cin>>name;
         cout<<"Enter your age: ";
-        cin>>age;
+        cin>>age;9
         cout<<"Your name is "<<name<<" and age is "<<age;
 }
