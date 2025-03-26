@@ -36,11 +36,12 @@ using namespace std;
 // cout<<b;
 
 // WAP which returns absolute value
-cout<<"enter a value ";
+// cout<<"enter a value ";
 
-cin>>a;
-(a>=0) ?cout<<a:cout<<-a;
+// cin>>a;
+// (a>=0) ?cout<<a:cout<<-a;
 
+// Bitwise operators
 
 
  }
