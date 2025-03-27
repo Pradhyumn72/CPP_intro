@@ -43,7 +43,6 @@ using namespace std;
 
 // Bitwise operators
 
-
  }
 
 
