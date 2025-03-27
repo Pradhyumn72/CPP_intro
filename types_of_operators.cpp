@@ -5,9 +5,10 @@
 // AND (&&) operator
 #include <iostream>
 using namespace std;
+int a =100;
  int main()
  {
- int a ;
+ int a=70 ;
  int b ;
  int c;
 //  int c = a &&  ;
@@ -42,6 +43,36 @@ using namespace std;
 // (a>=0) ?cout<<a:cout<<-a;
 
 // Bitwise operators
+
+
+
+
+
+
+// scope resolution operator
+cout<<::a<<"\n";
+cout<<a++;
+
+
+
+//WAP for swapping variable
+// with 3 var
+int p =10;
+int o =40;
+int e;
+cout<<"p = "<<p<<"before swapping \n";
+cout<<"o = "<<o<<"before swapping \n";
+e=o;
+o=p;
+p=e;
+cout<<"aftere swapping p is "<<p<<"\n";
+cout<<"aftere swapping o is "<<o<<"\n";
+
+// with two var
+
+o = o+p;
+p = o-p;
+o=o-p;
 
  }
 
