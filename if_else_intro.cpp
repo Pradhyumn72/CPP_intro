@@ -44,6 +44,25 @@ int main(){
 
 // nested if
 
+int marks;
+cout<<"enter marks ";
+cin>>marks;
+if (marks<33){
+    cout<<"fail";
+}
+else{
+    cout<<"pass by ";
+    if(marks>33 && marks<=45){
+        cout<<"3rd division";
+    }
+    if(marks>45 && marks<=60){
+        cout<<"2nd divison";
+    }
+    if(marks>60 && marks<=100){
+        cout<<"1st division";
+    }
+}
+
 
 
 }
