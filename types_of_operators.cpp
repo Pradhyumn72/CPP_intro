@@ -70,6 +70,7 @@ cout<<"aftere swapping o is "<<o<<"\n";
 
 // with two var
 
+
 o = o+p;
 p = o-p;
 o=o-p;
