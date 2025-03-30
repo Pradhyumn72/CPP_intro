@@ -1,4 +1,5 @@
-int d= -9 ;
-//  int e =10;
-//  int f = d && e ;
-//  cout<<f; //0
+o = o+p;
+// p = o-p;
+// o=o-p;
+// cout<<"aftere swapping p is "<<p<<"\n";
+// cout<<"aftere swapping o is "<<o<<"\n";

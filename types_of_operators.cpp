@@ -50,8 +50,8 @@ int a =100;
 
 
 // scope resolution operator
-cout<<::a<<"\n";
-cout<<a++;
+// cout<<::a<<"\n"; :: for global variables declared outside int main
+// cout<<a++;
 
 
 
@@ -62,11 +62,11 @@ int o =40;
 int e;
 cout<<"p = "<<p<<"before swapping \n";
 cout<<"o = "<<o<<"before swapping \n";
-e=o;
-o=p;
-p=e;
-cout<<"aftere swapping p is "<<p<<"\n";
-cout<<"aftere swapping o is "<<o<<"\n";
+// e=o;
+// o=p;
+// p=e;
+// cout<<"aftere swapping p is "<<p<<"\n";
+// cout<<"aftere swapping o is "<<o<<"\n";
 
 // with two var
 
@@ -74,7 +74,8 @@ cout<<"aftere swapping o is "<<o<<"\n";
 o = o+p;
 p = o-p;
 o=o-p;
-
+cout<<"aftere swapping p is "<<p<<"\n";
+cout<<"aftere swapping o is "<<o<<"\n";
  }
 
 
