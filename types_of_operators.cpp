@@ -68,7 +68,9 @@ cout<<"o = "<<o<<"before swapping \n";
 // cout<<"aftere swapping p is "<<p<<"\n";
 // cout<<"aftere swapping o is "<<o<<"\n";
 
+
 // with two var
+
 
 
 o = o+p;
