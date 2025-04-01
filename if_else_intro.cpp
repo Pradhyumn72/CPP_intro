@@ -119,32 +119,33 @@ int main(){
 //WAP to generate the bill of electricity by taking  
 // following constraints
 
-int units;
-cout<<"Enter the no of units consumed";
-cin>>units;
-if(units>=0 && units<=50){
-    cout<<"your bill is Rs. "<<units*2 + 0.2*units*2;
-}
-else if (units>50 && units<=100)
-{
-    cout<<"your bill is Rs. "<<units*3 + 0.2*units*3;
-}
+// int units;
+// int bill;
+// cout<<"Enter the no of units consumed";
+// cin>>units;
+// if(units>=0 && units<=50){
+//     cout<<"your bill is Rs. "<<units*2 + 0.2*units*2;
+// }
+// else if (units>50 && units<=100)
+// {
+//     cout<<"your bill is Rs. "<<units*3 + 0.2*units*3;
+// }
 
-else if (units>100 && units<=500)
-{
-    cout<<"your bill is Rs. "<<units*5 + 0.2*units*5;
-}
-else if (units>500 && units<=1000)
-{
-    cout<<"your bill is Rs. "<<units*7 + 0.2*units*7;
-}
-else if (units>=1000)
-{
-    cout<<"your bill is Rs. "<<units*10 + 0.2*units*10;
-}
-else{
-    cout<<"Invalid Reading";
-}
+// else if (units>100 && units<=500)
+// {
+//     cout<<"your bill is Rs. "<<units*5 + 0.2*units*5;
+// }
+// else if (units>500 && units<=1000)
+// {
+//     cout<<"your bill is Rs. "<<units*7 + 0.2*units*7;
+// }
+// else if (units>=1000)
+// {
+//     cout<<"your bill is Rs. "<<units*10 + 0.2*units*10;
+// }
+// else{
+//     cout<<"Invalid Reading";
+// }
 
 
 
