@@ -44,24 +44,38 @@ int main(){
 
 // nested if
 
-// int marks;
-// cout<<"enter marks ";
-// cin>>marks;
-// if (marks<33){
-//     cout<<"fail";
-// }
-// else{
-//     cout<<"pass by ";
-//     if(marks>33 && marks<=45){
-//         cout<<"3rd division";
-//     }
-//     if(marks>45 && marks<=60){
-//         cout<<"2nd divison";
-//     }
-//     if(marks>60 && marks<=100){
-//         cout<<"1st division";
-//     }
-// }
+float Physics_Score;
+float Chemistry_Score;
+float Maths_Score;
+float total_marks;
+float percentage;
+
+cout<<"Enter Physics Score ";
+cin>>Physics_Score;
+cout<<"Enter Chemisrty Score ";
+cin>>Chemistry_Score;
+cout<<"Enter Maths Score ";
+cin>>Maths_Score;
+total_marks= (Physics_Score+Chemistry_Score+Maths_Score);
+cout<<"Your total marks is \n"<<total_marks;
+percentage=total_marks/3;
+cout<<"Your percentage is \n"<<percentage;
+
+if (percentage<35){
+    cout<<"fail";
+}
+else{
+    cout<<"pass by ";
+    if(percentage>35 && percentage<=49){
+        cout<<"3rd division \n";
+    }
+    if(percentage>49 && percentage<=59){
+        cout<<"2nd divison \n";
+    }
+    if(percentage>60 && percentage<=100){
+        cout<<"1st division \n";
+    }
+}
 
 // WAP to enter password ...2025 should be there
 
