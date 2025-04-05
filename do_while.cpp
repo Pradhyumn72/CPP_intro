@@ -50,27 +50,37 @@ int main(){
 
 
 // for getting sums of numbers
-int f=1;
-int h=0;
+// int f=1;
+// int h=0;
 
 
-do{
-    h=h+f;
+// do{
+//     h=h+f;
     
-    f++;
-}while(f<=10);
-cout<<"total value is "<<h;
+//     f++;
+// }while(f<=10);
+// cout<<"total value is "<<h;
 
-//for getting total of multiplying numbers 
-int j=1;
-int k=1;
+// //for getting total of multiplying numbers 
+// int j=1;
+// int k=1;
 
-do{
-    k=k*j;
-    j++;
-}while(j<=10);
-cout<<"final val is "<<k;
+// do{
+//     k=k*j;
+//     j++;
+// }while(j<=10);
+// cout<<"final val is "<<k;
 
+//WAP to write a program to generate a factorial
 
+int a,b;
+b=1;
+cin>>a;
+do {
+    b=a*b;
+    a--;
+}while(a>=1);
+
+cout<<"ans is "<<b;
 
 }
