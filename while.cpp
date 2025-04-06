@@ -80,4 +80,13 @@ int main(){
 //  }
 
 // cout<<b;
+
+//WAP to write a program to generate a factorial
+int a=1,b=1;
+cin>>a;
+while(a>0){
+    b=a*b;
+    a--;
+}
+cout<<b;
 }
