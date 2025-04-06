@@ -64,12 +64,20 @@ int main(){
 
 
 //WAP to print sum of values b/w 1 to 10
-int c=1,d=0;
-while(c<=10){
-    d=d+c;
-    c++;
+// int c=1,d=0;
+// while(c<=10){
+//     d=d+c;
+//     c++;
    
-}
- cout<<d<<"\n";
+// }
+//  cout<<d<<"\n";
 
+//WAP to print multiplication of values b/w 1 to 10
+ int a=1,b=1;
+ while(a<=10){
+    b=a*b;
+    a++;
+ }
+
+cout<<b;
 }
