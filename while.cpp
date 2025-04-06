@@ -49,20 +49,27 @@ int main(){
 
 
 // WAP to print even number between 1 to 10
-int a=0;
+// int a=0;
 
-while(a<=10){
-    cout<<a;
-    a+=2;
-}
+// while(a<=10){
+//     cout<<a;
+//     a+=2;
+// }
 
 // WAP to print odd number between 1 to 10
-int b =1;
-while(b<=10){
-    cout<<b;
-    b+=2;
-}
+// int b =1;
+// while(b<=10){
+//     cout<<b;
+//     b+=2;
+// }
 
+
+//WAP to print sum of values b/w 1 to 10
+int c,d=0;
+while(c<=10){
+    d=d+c;
+    cout<<d<<"\n";
+}
 
 
 }
