@@ -24,7 +24,6 @@ int main(){
 
 
 
-
 // int a;
 // cout<<"enter number "<<"\n";
 // cin>>a;
