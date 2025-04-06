@@ -12,15 +12,15 @@ int main(){
 
 //WAP to find out the how many digits in given number
 
-int a,t=0;
-cout<<"enter number";
-cin>>a;
-while (a>0)
-{
-    t=t+1;
-    a=a/10;
-}
-cout<<"total digit "<<t;
+// int a,t=0;
+// cout<<"enter number";
+// cin>>a;
+// while (a>0)
+// {
+//     t=t+1;
+//     a=a/10;
+// }
+// cout<<"total digit "<<t;
 
 
 
@@ -36,5 +36,33 @@ cout<<"total digit "<<t;
 //     a++;
 
 // }while
+
+// WAP to print table
+
+// int a,b=1;
+// cout<<"enter number ";
+// cin>>a;
+// while(b<=10){
+//     cout<<a*b<<"\n";
+//     b++;
+// }
+
+
+// WAP to print even number between 1 to 10
+int a=0;
+
+while(a<=10){
+    cout<<a;
+    a+=2;
+}
+
+// WAP to print odd number between 1 to 10
+int b =1;
+while(b<=10){
+    cout<<b;
+    b+=2;
+}
+
+
 
 }
