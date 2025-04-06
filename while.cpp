@@ -12,8 +12,8 @@ int main(){
 
 //WAP to find out the how many digits in given number
 
+
 int a;
 cout<<"enter number "<<"\n";
-
 
 }
