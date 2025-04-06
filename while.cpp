@@ -64,6 +64,7 @@ int main(){
 // }
 
 
+
 //WAP to print sum of values b/w 1 to 10
 int c=1,d=0;
 while(c<=10){
