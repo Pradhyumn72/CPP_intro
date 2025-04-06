@@ -73,11 +73,11 @@ int main(){
 //  cout<<d<<"\n";
 
 //WAP to print multiplication of values b/w 1 to 10
- int a=1,b=1;
- while(a<=10){
-    b=a*b;
-    a++;
- }
+//  int a=1,b=1;
+//  while(a<=10){
+//     b=a*b;
+//     a++;
+//  }
 
-cout<<b;
+// cout<<b;
 }
