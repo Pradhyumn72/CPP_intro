@@ -8,8 +8,19 @@ int main(){
     // }
 
 // WAP to print even number between 1 to 10
+// for(int x=1;x<=10;x++){
+//     cout<<x<<"\n";
+// }
 // WAP to print odd number between 1 to 10
+// for(int x=1;x<11;x+=2){
+//     cout<<x<<"\n";
+// }
 //WAP to print sum of values b/w 1 to 10
+int sum = 0;
+    for (int i = 1; i <= 10; i++) {
+        sum += i; // Add current number to sum
+    }
+    cout << "Sum of numbers from 1 to 10 is: " << sum << endl;
 //WAP to print multiplication of values b/w 1 to 10
 //WAP to write a program to generate a factorial
     //WAP to display the nos from 20 to 50n which are odd
@@ -24,16 +35,16 @@ int main(){
 //WAP to find out LCM of 24 and 40 
 // WAP to find out the HCF of 24 and 40 
 //WAP to find out the factor of given number 
-int x;
-cout<<"enter no "<<endl;
-cin>>x;
-if(x%x==0 || x%1==0){
-    cout<<"prime";
+// int x;
+// cout<<"enter no "<<endl;
+// cin>>x;
+// if(x%x==0 || x%1==0){
+//     cout<<"prime";
 
-}
-else{
-    cout<<"not prime";
-}
+// }
+// else{
+//     cout<<"not prime";
+// }
 
 
 }
