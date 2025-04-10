@@ -58,16 +58,7 @@ int main(){
 
 
 //WAP to find out LCM of 24 and 40 
-int a =24;
-int b=40;
-int max = (a > b) ? a : b; // start from the larger of the two
-
-    for (int i = max; ; i++) {
-        if (i % a == 0 && i % b == 0) {
-            cout << "LCM of " << a << " and " << b << " is " << i;
-            break; // stop the loop after finding the first common multiple
-        }
-    }
+int x=
 
     
 // WAP to find out the HCF of 24 and 40 

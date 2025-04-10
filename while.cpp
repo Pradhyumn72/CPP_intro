@@ -73,13 +73,13 @@ int main(){
 //  cout<<d<<"\n";
 
 // WAP to print multiplication of values b/w 1 to 10
- int a=1,b=1;
- while(a<=10){
-    b=a*b;
-    a++;
- }
+//  int a=1,b=1;
+//  while(a<=10){
+//     b=a*b;
+//     a++;
+//  }
 
-cout<<b;
+// cout<<b;
 
 //WAP to write a program to generate a factorial
 // int a=1,b=1;
@@ -89,4 +89,36 @@ cout<<b;
 //     a--;
 // }
 // cout<<b;
+
+// WAP to find out LCM of 24 and 40 
+// int x,y;
+// cout<<"enter val of x";
+// cin>>x;
+// cout<<"enter val of y";
+// cin>>y;
+// int a= x<y ? y:x;
+
+// while(1){
+//     if (x%a==0 && y%a==0){
+//         cout<<"hcf is "<<a;
+//         break;
+//     }
+//     a--;
+// }
+
+int n;
+cin>>n;
+int k=n;
+int c=0;
+for (;n>=1;n--){
+
+    if (k%n==0 ){
+        cout<<n<<"\n";
+         c=c+1;
+    }
+   
+}
+cout<<c;
+
+
  }

@@ -10,10 +10,10 @@ using namespace std; //collection of identifiers
 // \t is escape sequence operator ,for 0.5 inch gap 
 // \n is escape sequence operator for new line
 int x, y;  // Declare variables
-    cout << "Enter your value of x: ";
-    cin >> x;  // Take input for x
-    cout << "Enter your value of y: ";
-    cin >> y;  // Take input for y
+    cout<< "Enter your value of x: ";
+    cin>> x;  // Take input for x
+    cout<< "Enter your value of y: ";
+    cin>> y;  // Take input for y
 
     int c = x + y;  // Perform addition after inputs
 
