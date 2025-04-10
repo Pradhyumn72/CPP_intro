@@ -72,21 +72,21 @@ int main(){
 // }
 //  cout<<d<<"\n";
 
-//WAP to print multiplication of values b/w 1 to 10
-//  int a=1,b=1;
-//  while(a<=10){
-//     b=a*b;
-//     a++;
-//  }
+// WAP to print multiplication of values b/w 1 to 10
+ int a=1,b=1;
+ while(a<=10){
+    b=a*b;
+    a++;
+ }
 
-// cout<<b;
+cout<<b;
 
 //WAP to write a program to generate a factorial
-int a=1,b=1;
-cin>>a;
-while(a>0){
-    b=a*b;
-    a--;
-}
-cout<<b;
-}
+// int a=1,b=1;
+// cin>>a;
+// while(a>0){
+//     b=a*b;
+//     a--;
+// }
+// cout<<b;
+ }
