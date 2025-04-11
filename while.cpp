@@ -106,19 +106,40 @@ int main(){
 //     a--;
 // }
 
-int n;
-cin>>n;
-int k=n;
-int c=0;
-for (;n>=1;n--){
+// int n;
+// cin>>n;
+// int k=n;
+// int c=0;
+// for (;n>=1;n--){
 
-    if (k%n==0 ){
-        cout<<n<<"\n";
-         c=c+1;
-    }
+//     if (k%n==0 ){
+//         cout<<n<<"\n";
+//          c=c+1;
+//     }
    
-}
-cout<<c;
+// }
+// cout<<c;
+//  int n,b,f=0;
+//  cout<<"enter no ";
+//  cin>>n;
+//  b=n-1;
+//  while(b>1){
+//     if(n%b==0){
+//         f=1;
+//         break;
+//     }
+//     b--;
+//  }
+//  if (f==1){
+//     cout<<"not prime";
 
+//  }
+//  else{
+//     cout<<"prime";
+//  }
+
+// WAP to find out the given number is perfect number or not
+// WAP to print given in reverse order
+// WAP to print sum if first and last digit
 
  }
