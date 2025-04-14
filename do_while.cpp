@@ -83,4 +83,24 @@ do {
 
 cout<<"ans is "<<b;
 
+// int a =1,b=0;
+// while(a<=10){
+//     b=b+a;
+//     cout<<a+b;
+//     b++;
+// }
+//  int a = 1;
+//     int b = 1;
+
+//     while (a <= 10) {
+//         b =b * a ;  // Add current value of i to sum
+//         a++; 
+//              // Increment i;
+//     }
+// //  cout<<a*b;
+//     // cout << "Sum = " << b << endl;
+
+
+
+
 }

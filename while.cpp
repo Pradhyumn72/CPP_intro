@@ -141,50 +141,71 @@ int main(){
 // WAP to find out the given number is perfect number or not
 // WAP to print given in reverse order
 
-    int num, reversed = 0;
+    // int num, reversed = 0;
 
-    // Input the number
+    // // Input the number
+    // cout << "Enter a number: ";
+    // cin >> num;
+
+    // // Reverse the number
+    // while (num != 0) {
+    //     int digit = num % 10;
+    //     reversed = reversed * 10 + digit;
+    // num = num/10;
+    // }
+
+    // // Output the reversed number
+    // cout << "Reversed number: " << reversed << endl;
+
+    
+
+// WAP to print sum if first and last digit
+int num, originalNum, lastDigit, firstDigit;
+
+    // Input number
     cout << "Enter a number: ";
     cin >> num;
 
-    // Reverse the number
-    while (num != 0) {
-        int digit = num % 10;
-        reversed = reversed * 10 + digit;
+    originalNum = num; // Save the original number
+    lastDigit = num % 10; // Get the last digit
+
+    // Find the first digit
+    while (num >= 10) {
         num = num / 10;
     }
+    firstDigit = num;
 
-    // Output the reversed number
-    cout << "Reversed number: " << reversed << endl;
+    int sum = firstDigit + lastDigit;
 
-    return 0;
+    // Output the result
+    cout << "First digit: " << firstDigit << endl;
+    cout << "Last digit: " << lastDigit << endl;
+    cout << "Sum of first and last digit: " << sum << endl;
 
-
-// WAP to print sum if first and last digit
 
 // perfect numbers
 
-  int n;
-    cout << "Enter a number: ";
-    cin >> n;
+//   int n;
+//     cout << "Enter a number: ";
+//     cin >> n;
 
-    int sum = 0;
-    int i;
-
-    
-    for (i = 1; i < n; i++) {
-        if (n % i == 0) {
-            sum += i; 
-        }
-    }
-    
+//     int sum = 0;
+//     int i;
 
     
-    if (sum == n) {
-        cout << n << " is a perfect number." << endl;
-    } else {
-        cout << n << " is not a perfect number." << endl;
-    }
+//     for (i = 1; i < n; i++) {
+//         if (n % i == 0) {
+//             sum += i; 
+//         }
+//     }
+    
+
+    
+//     if (sum == n) {
+//         cout << n << " is a perfect number." << endl;
+//     } else {
+//         cout << n << " is not a perfect number." << endl;
+//     }
 
 
     // int x, y;
