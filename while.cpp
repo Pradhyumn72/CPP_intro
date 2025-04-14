@@ -142,25 +142,47 @@ int main(){
 // WAP to print given in reverse order
 // WAP to print sum if first and last digit
 
-// getting factors
+// perfect numbers
 
-  int n;
-    cout << "Enter a number: ";
-    cin >> n;
+//   int n;
+//     cout << "Enter a number: ";
+//     cin >> n;
 
-    int sum = 0;
+//     int sum = 0;
+//     int i;
 
     
-    for (int i = 1; i < n; i++) {
-        if (n % i == 0) {
-            sum += i; 
+//     for (int i = 1; i < n; i++) {
+//         if (n % i == 0) {
+//             sum += i; 
+//         }
+//     }
+//     cout<<i;
+
+    
+//     if (sum == n) {
+//         cout << n << " is a perfect number." << endl;
+//     } else {
+//         cout << n << " is not a perfect number." << endl;
+//     }
+
+
+int x, y;
+    cout << "Enter value of x: ";
+    cin >> x;
+    cout << "Enter value of y: ";
+    cin >> y;
+
+    int a = x > y ? x : y;  // Start from the max of x and y
+
+    while (true) {
+        if (a % x == 0 && a % y == 0) {
+            cout << "LCM is: " << a << endl;
+            break;
         }
+        a++;  // Keep checking the next number
     }
 
-    
-    if (sum == n) {
-        cout << n << " is a perfect number." << endl;
-    } else {
-        cout << n << " is not a perfect number." << endl;
-    }
+
+
 }
