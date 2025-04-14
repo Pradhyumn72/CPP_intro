@@ -141,6 +141,25 @@ int main(){
 // WAP to find out the given number is perfect number or not
 // WAP to print given in reverse order
 
+    int num, reversed = 0;
+
+    // Input the number
+    cout << "Enter a number: ";
+    cin >> num;
+
+    // Reverse the number
+    while (num != 0) {
+        int digit = num % 10;
+        reversed = reversed * 10 + digit;
+        num = num / 10;
+    }
+
+    // Output the reversed number
+    cout << "Reversed number: " << reversed << endl;
+
+    return 0;
+
+
 // WAP to print sum if first and last digit
 
 // perfect numbers
