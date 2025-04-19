@@ -37,28 +37,28 @@ int main(){
     //     }
     // }
 
-//WAP to display to find out the given no is prime or not
-// int N;
-// cout<<"enter no";
-// cin>>N;
-// int count =0;
-// for(int i=1;i<=N;i++){
-//     if(N%i==0){
-//         count++;
-//     }
+// WAP to display to find out the given no is prime or not
+int N;
+cout<<"enter no";
+cin>>N;
+int count =0;
+for(int i=1;i<=N;i++){
+    if(N%i==0){
+        count++;
+    }
     
-// }
-// if (count>2){
-//         cout<<"non prime";
-//     }
-//     else{
-//         cout<<"prime";
-//     }
+}
+if (count>2){
+        cout<<"non prime";
+    }
+    else{
+        cout<<"prime";
+    }
 
 
 
 //WAP to find out LCM of 24 and 40 
-int x=
+// int x=
 
     
 // WAP to find out the HCF of 24 and 40 

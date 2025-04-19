@@ -59,14 +59,14 @@ int a =100;
 // with 3 var
 int p =10;
 int o =40;
-int e;
-cout<<"p = "<<p<<"before swapping \n";
-cout<<"o = "<<o<<"before swapping \n";
-// e=o;
-// o=p;
-// p=e;
-// cout<<"aftere swapping p is "<<p<<"\n";
-// cout<<"aftere swapping o is "<<o<<"\n";
+// int e;
+// cout<<"p = "<<p<<"before swapping \n";
+// cout<<"o = "<<o<<"before swapping \n";
+// // e=o;
+// // o=p;
+// // p=e;
+// // cout<<"aftere swapping p is "<<p<<"\n";
+// // cout<<"aftere swapping o is "<<o<<"\n";
 
 
 // with two var

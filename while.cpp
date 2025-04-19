@@ -160,27 +160,27 @@ int main(){
     
 
 // WAP to print sum if first and last digit
-int num, originalNum, lastDigit, firstDigit;
+// int num, originalNum, lastDigit, firstDigit;
 
-    // Input number
-    cout << "Enter a number: ";
-    cin >> num;
+//     // Input number
+//     cout << "Enter a number: ";
+//     cin >> num;
 
-    originalNum = num; // Save the original number
-    lastDigit = num % 10; // Get the last digit
+//     originalNum = num; // Save the original number
+//     lastDigit = num % 10; // Get the last digit
 
-    // Find the first digit
-    while (num >= 10) {
-        num = num / 10;
-    }
-    firstDigit = num;
+//     // Find the first digit
+//     while (num >= 10) {
+//         num = num / 10;
+//     }
+//     firstDigit = num;
 
-    int sum = firstDigit + lastDigit;
+//     int sum = firstDigit + lastDigit;
 
-    // Output the result
-    cout << "First digit: " << firstDigit << endl;
-    cout << "Last digit: " << lastDigit << endl;
-    cout << "Sum of first and last digit: " << sum << endl;
+//     // Output the result
+//     cout << "First digit: " << firstDigit << endl;
+//     cout << "Last digit: " << lastDigit << endl;
+//     cout << "Sum of first and last digit: " << sum << endl;
 
 
 // perfect numbers
@@ -224,5 +224,24 @@ int num, originalNum, lastDigit, firstDigit;
     //     a--;  
     // }
 
+//  int x =1;
+//  cout<<"enter val of x";
+//  cin>>x;
+//  int y=1;
+//  while(x>0){
+//     x=x/10;
+//     y=y+1;
+//  }
+//  cout << y;
+ int n;
+    cout << "Enter a number: ";
+    cin >> n;
 
+    int fact = 1;
+
+    for (int i = 1; i <= n; i++) {
+        fact = fact * i;
+    }
+
+    cout << "Factorial of " << n << " is " << fact;
 }
