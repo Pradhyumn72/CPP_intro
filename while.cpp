@@ -224,15 +224,15 @@ int main(){
     //     a--;  
     // }
 
-//  int x =1;
-//  cout<<"enter val of x";
-//  cin>>x;
-//  int y=1;
-//  while(x>0){
-//     x=x/10;
-//     y=y+1;
-//  }
-//  cout << y;
+ int x =1;
+ cout<<"enter val of x";
+ cin>>x;
+ int y=1;
+ while(x>0){
+    x=x/10;
+    y=y+1;
+ }
+ cout << y;
  int n;
     cout << "Enter a number: ";
     cin >> n;
@@ -245,4 +245,23 @@ int main(){
    
 
     cout << LD+FD;
+// int n;
+// int reversed=0;
+// cout<<"enter val of n ";
+// cin>>n;
+// int num=n;
+
+// while(n>0){
+//     int digit=n%10;
+//     reversed=reversed*10+digit;
+//     n=n/10;
+// }
+// if(num==reversed){
+//     cout<<"a palindrome";
+// }
+// else{
+//     cout<<"not a palindrome";
+// }
+
+
 }
