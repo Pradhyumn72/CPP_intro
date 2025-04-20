@@ -237,11 +237,12 @@ int main(){
     cout << "Enter a number: ";
     cin >> n;
 
-    int fact = 1;
-
-    for (int i = 1; i <= n; i++) {
-        fact = fact * i;
+    int LD = n%10;
+    int FD = n;
+    while(FD>=10){
+        FD=FD/10;
     }
+   
 
-    cout << "Factorial of " << n << " is " << fact;
+    cout << LD+FD;
 }
