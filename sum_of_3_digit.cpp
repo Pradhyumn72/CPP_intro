@@ -21,19 +21,33 @@ int main()
     // cout<<"sum of 3 digit="<<k+r+j;
 
 // sum of any no of digits 
-int a;
-    cout << "Enter any number: ";
-    cin >> a;
+// int a;
+//     cout << "Enter any number: ";
+//     cin >> a;
 
-    int sum = 0, digit;
+//     int sum = 0, digit;
 
-    cout << "Digits: ";
-    while (a > 0) {
-        digit = a % 10;       // Get last digit
-        cout << digit << " "; // Print digit
-        sum += digit;         // Add to sum
-        a = a / 10;           // Remove last digit
+//     cout << "Digits: ";
+//     while (a > 0) {
+//         digit = a % 10;       // Get last digit
+//         cout << digit << " "; // Print digit
+//         sum += digit;         // Add to sum
+//         a = a / 10;           // Remove last digit
+//     }
+
+//     cout << "\nSum of digits = " << sum << endl;
+
+
+int x;
+cin>>x;
+int y;
+cin>>y;
+int a=x<y ? x:y;
+while(1){
+    if(x%a==0 && y%a==0){
+        cout<<" lcm is "<<a;
+        break;
     }
-
-    cout << "\nSum of digits = " << sum << endl;
+    a--;
+}
 }
