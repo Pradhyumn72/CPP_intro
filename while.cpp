@@ -224,27 +224,27 @@ int main(){
     //     a--;  
     // }
 
- int x =1;
- cout<<"enter val of x";
- cin>>x;
- int y=1;
- while(x>0){
-    x=x/10;
-    y=y+1;
- }
- cout << y;
- int n;
-    cout << "Enter a number: ";
-    cin >> n;
+//  int x =1;
+//  cout<<"enter val of x";
+//  cin>>x;
+//  int y=1;
+//  while(x>0){
+//     x=x/10;
+//     y=y+1;
+//  }
+//  cout << y;
+//  int n;
+//     cout << "Enter a number: ";
+//     cin >> n;
 
-    int LD = n%10;
-    int FD = n;
-    while(FD>=10){
-        FD=FD/10;
-    }
+//     int LD = n%10;
+//     int FD = n;
+//     while(FD>=10){
+//         FD=FD/10;
+//     }
    
 
-    cout << LD+FD;
+//     cout << LD+FD;
 // int n;
 // int reversed=0;
 // cout<<"enter val of n ";
@@ -262,6 +262,35 @@ int main(){
 // else{
 //     cout<<"not a palindrome";
 // }
+//  int n;
+//     cout << "Enter value of n: ";
+//     cin >> n;
+
+//     int count = 0;
+
+//     for(int i = 1; i <= n; i++) {
+//         if(n % i == 0) {
+//             count++;
+//         }
+//     }
+
+//     if(count == 2) {
+//         cout << "A prime number" << endl;
+//     } else {
+//         cout << "Not a prime number" << endl;
+//     }
+
+int n,t1=0,t2=1,nxtterm;
+cout<<"enter no of terms ";
+cin>>n;
+cout<<"fibbonacci series ";
+for(int i=1;i<=n;i++){
+    cout<<t1<< " ";
+    nxtterm=t1+t2;
+    t1=t2;
+    t2=nxtterm;
+}
+cout<<endl;
 
 
 }
