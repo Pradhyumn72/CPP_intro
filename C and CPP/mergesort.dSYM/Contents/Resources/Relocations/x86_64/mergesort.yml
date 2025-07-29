@@ -1,0 +1,10 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/pradhyumn/Desktop/C and CPP/mergesort'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _merge, symObjAddr: 0x0, symBinAddr: 0x100000B80, symSize: 0x270 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _merge, symObjAddr: 0x0, symBinAddr: 0x100000B80, symSize: 0x270 }
+  - { offsetInCU: 0x148, offset: 0x148, size: 0x8, addend: 0x0, symName: _mergeSort, symObjAddr: 0x270, symBinAddr: 0x100000DF0, symSize: 0x80 }
+  - { offsetInCU: 0x1A4, offset: 0x1A4, size: 0x8, addend: 0x0, symName: _printArray, symObjAddr: 0x2F0, symBinAddr: 0x100000E70, symSize: 0x60 }
+  - { offsetInCU: 0x1F2, offset: 0x1F2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x350, symBinAddr: 0x100000ED0, symSize: 0x8F }
+...

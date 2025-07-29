@@ -38,22 +38,7 @@ int main(){
     // }
 
 // WAP to display to find out the given no is prime or not
-int N;
-cout<<"enter no";
-cin>>N;
-int count =0;
-for(int i=1;i<=N;i++){
-    if(N%i==0){
-        count++;
-    }
-    
-}
-if (count>2){
-        cout<<"non prime";
-    }
-    else{
-        cout<<"prime";
-    }
+
 
 
 

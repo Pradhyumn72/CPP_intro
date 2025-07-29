@@ -20,3 +20,5 @@
 //     cout << "Your answer is: " << c
 // // for taking all positive inputs in a fucntion
 // // take unsigned int ()
+# include <iostream>
+using namespace std;
