@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>  // Include the vector header
 # include<deque>
+# include<stack>
 using namespace std;
 
 int main() {
@@ -59,5 +60,7 @@ int main() {
     for(auto value:dq){
         cout<<value<<endl;
     }
+    stack<int> st={1,2,3,4,5,6};
+
 
 }
