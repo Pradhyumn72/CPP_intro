@@ -2,6 +2,7 @@
 #include <vector>  // Include the vector header
 # include<deque>
 # include<stack>
+#include <algorithm>
 using namespace std;
 
 int main() {
@@ -14,8 +15,34 @@ int main() {
 
 
     vector <int> v={10,20,30,40,50,60};
-    vector <int> v1={110,133};
     vector <int> :: iterator it=v.begin();
+    vector <int> :: iterator itt=v.end()-1; // accessing last element
+    vector <int> v1={110,133};
+    vector <int> v2={11,45,55,21};
+    vector <int> :: iterator at=v2.begin();
+    vector <int> :: iterator ae=v2.end()-1;
+
+    // v2.push_back(90);
+    // v2.push_back(44);
+    // v2.pop_back();
+    v2.erase(at); // deletes specific postion element
+    for (int x :v2){
+        cout<<x;
+    }
+   
+    
+    // v.empty();
+    // v2.insert(v2.begin()+1,180); // insertion at a specific index
+    // for(auto value:v2){
+    //     cout<<value<<endl;
+    // }
+    // cout<<v2.size()<<endl;
+    
+    
+    // cout<<v2[0]; // accessing vector elements
+    // cout<<*it<<endl;
+    // cout<<*itt<<endl;
+
     // it++;
     // cout<<*it<<endl;
     // it++;
@@ -38,6 +65,16 @@ int main() {
     //     cout<<*it<<endl;
     // }
 
+// for sorting
+// vector <int> :: iterator at=v2.begin();
+//     vector <int> :: iterator ae=v2.end()-1;
+//  sort(at,ae);
+//     for (int x : v2) {
+//         cout << x << " ";
+//     }
+
+
+
 //deletion: v.erase()
     // v.erase(v.begin());
     // for (auto value:v){
@@ -53,14 +90,16 @@ int main() {
     // for(auto value:v){
     //     cout<<value<<endl;
     // }
-    deque<int> dq={1,2,3,4,5};
-    dq.push_front(0);
-    dq.push_back(7);
-    dq.emplace_back(8);
-    for(auto value:dq){
-        cout<<value<<endl;
-    }
-    stack<int> st={1,2,3,4,5,6};
+
+
+    // deque<int> dq={1,2,3,4,5};
+    // dq.push_front(0);
+    // dq.push_back(7);
+    // dq.emplace_back(8);
+    // for(auto value:dq){
+    //     cout<<value<<endl;
+    // }
+    // stack<int> st={1,2,3,4,5,6};
 
 
 }
