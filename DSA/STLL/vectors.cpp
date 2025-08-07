@@ -25,10 +25,10 @@ int main() {
     // v2.push_back(90);
     // v2.push_back(44);
     // v2.pop_back();
-    v2.erase(at); // deletes specific postion element
-    for (int x :v2){
-        cout<<x;
-    }
+    // v2.erase(at); // deletes specific postion element
+    // for (int x :v2){
+    //     cout<<x;
+    // }
    
     
     // v.empty();
@@ -101,5 +101,8 @@ int main() {
     // }
     // stack<int> st={1,2,3,4,5,6};
 
-
+    int arr[5] ={1,2,3,4,5};
+    for(auto value:arr){
+        cout<<value<<endl;
+    }
 }
