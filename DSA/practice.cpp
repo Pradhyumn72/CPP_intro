@@ -15,5 +15,5 @@ int main(){
             sec_largest=arr[j];
         }
     }
-    cout<<"seond largest element"<<"is :"<<sec_largest;
+    cout<<"second largest element"<<"is :"<<sec_largest;
 }
