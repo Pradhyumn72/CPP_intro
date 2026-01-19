@@ -8,8 +8,11 @@ int main(){
     // }
 
 // WAP to print even number between 1 to 10
-// for(int x=1;x<=10;x++){
-//     cout<<x<<"\n";
+for(int x=1;x<=10;x++){
+    if(x%2==0){
+    cout<<x;
+    }
+}
 // }
 // WAP to print odd number between 1 to 10
 // for(int x=1;x<11;x+=2){
@@ -58,6 +61,24 @@ int main(){
 // else{
 //     cout<<"not prime";
 // }
+// int n;
+// int i =1;
+// int count=0;
+// cout<<"enter val of n ";
+// cin>>n;
+
+// for(int i=1;i<=n;i++){
+//     if(n%i==0){
+//         count++;
+//     }
+// }
+// if(count==2){
+//     cout<<"prime";
+// }
+// else{
+//     cout<<"not prime";
+// }
+
 
 
 }

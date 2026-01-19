@@ -262,35 +262,35 @@ int main(){
 // else{
 //     cout<<"not a palindrome";
 // }
-//  int n;
-//     cout << "Enter value of n: ";
-//     cin >> n;
+ int n;
+    cout << "Enter value of n: ";
+    cin >> n;
 
-//     int count = 0;
+    int count = 0;
 
-//     for(int i = 1; i <= n; i++) {
-//         if(n % i == 0) {
-//             count++;
-//         }
-//     }
+    for(int i = 1; i <= n; i++) {
+        if(n % i == 0) {
+            count++;
+        }
+    }
 
-//     if(count == 2) {
-//         cout << "A prime number" << endl;
-//     } else {
-//         cout << "Not a prime number" << endl;
-//     }
+    if(count == 2) {
+        cout << "A prime number" << endl;
+    } else {
+        cout << "Not a prime number" << endl;
+    }
 
-int n,t1=0,t2=1,nxtterm;
-cout<<"enter no of terms ";
-cin>>n;
-cout<<"fibbonacci series ";
-for(int i=1;i<=n;i++){
-    cout<<t1<< " ";
-    nxtterm=t1+t2;
-    t1=t2;
-    t2=nxtterm;
-}
-cout<<endl;
+// int n,t1=0,t2=1,nxtterm;
+// cout<<"enter no of terms ";
+// cin>>n;
+// cout<<"fibbonacci series ";
+// for(int i=1;i<=n;i++){
+//     cout<<t1<< " ";
+//     nxtterm=t1+t2;
+//     t1=t2;
+//     t2=nxtterm;
+// }
+// cout<<endl;
 
 
 }

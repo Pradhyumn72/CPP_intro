@@ -20,15 +20,15 @@ int a =100;
 //  int f = d && e ;
 //  cout<<f; //0
 
- //OR(||)
-//  int x =10;
-//  int y= -1;
+ //OR(||) jb tk dono zero nhi tb t zero nhi 
+//  int x =0;
+//  int y= 0;
 //  int z = x||y;
 //  cout<<z;
+ 
 
-// Realtional Operators
+// Relational Operators
 // >,<, >=,<= ,!=
-
 // ternary operators
 //WAP for entering no is odd or even
 // cout<<"enter the number: \n";
@@ -57,8 +57,8 @@ int a =100;
 
 //WAP for swapping variable
 // with 3 var
-int p =10;
-int o =40;
+// int p =10;
+// int o =40;
 // int e;
 // cout<<"p = "<<p<<"before swapping \n";
 // cout<<"o = "<<o<<"before swapping \n";
@@ -73,12 +73,12 @@ int o =40;
 
 
 
-o = o+p;
-p = o-p;
-// o=o-p;
-cout<<"aftere swapping p is "<<p<<"\n";
-cout<<"aftere swapping o is "<<o<<"\n";
- }
+// o = o+p;
+// p = o-p;
+// // o=o-p;
+// cout<<"aftere swapping p is "<<p<<"\n";
+// cout<<"aftere swapping o is "<<o<<"\n";
+//  }
 
 
 
