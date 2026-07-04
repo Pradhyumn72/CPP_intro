@@ -5,7 +5,32 @@
 #include <algorithm>
 using namespace std;
 
+
+    void swapp(int arr[],int s,int e){
+        int temp =arr[s];
+        arr[s]=arr[e];
+        arr[e]=temp;
+        
+    }
+    void reversee(int i , int arr[],int n){
+    if (i>=n/2) return;
+    swapp(arr,i,n-i-1);
+    reversee(i+1,arr,n);
+    }
 int main() {
+
+    int n ;
+    cin>>n;
+    int arr[n];
+    for (int i=0;i<n;i++){
+        cin>>arr[i];}
+    reversee(0,arr,n);
+    
+    for (int i=0;i<n;i++){
+        cout<<arr[i]<<" ";
+    }
+
+    
 
     // vector<int> v = {10, 20, 30, 40, 50};  // Declare and initialize the vector
 
@@ -13,14 +38,14 @@ int main() {
 
     // cout << *it << endl;  // Optional: print the first element
 
-
-    vector <int> v={10,20,30,40,50,60};
-    vector <int> :: iterator it=v.begin();
-    vector <int> :: iterator itt=v.end()-1; // accessing last element
-    vector <int> v1={110,133};
-    vector <int> v2={11,45,55,21};
-    vector <int> :: iterator at=v2.begin();
-    vector <int> :: iterator ae=v2.end()-1;
+        
+    // vector <int> v={10,20,30,40,50,60};
+    // vector <int> :: iterator it=v.begin();
+    // vector <int> :: iterator itt=v.end()-1; // accessing last element
+    // vector <int> v1={110,133};
+    // vector <int> v2={11,45,55,21};
+    // vector <int> :: iterator at=v2.begin();
+    // vector <int> :: iterator ae=v2.end()-1;
 
     // v2.push_back(90);
     // v2.push_back(44);
@@ -101,8 +126,34 @@ int main() {
     // }
     // stack<int> st={1,2,3,4,5,6};
 
-    int arr[5] ={1,2,3,4,5};
-    for(auto value:arr){
-        cout<<value<<endl;
-    }
+    // int arr[5] ={1,2,3,4,5};
+    // for(auto value:arr){
+    //     cout<<value<<endl;
+    // }
+
+    // vector<int> v4;
+    // v4.push_back(3);
+    
+
+    // int n;
+    // cin>>n;
+    // int arr[n];
+    // for (int i=0;i<n;i++){
+    //     cin>>arr[i];
+    // }
+    // int hash[13]={0};
+    // for(int i=0;i<n;i++){
+    //     hash[arr[i]]+=1;
+    // }
+    // int q;
+    // cin>>q;
+    // while(q--){
+    //     int nos;
+    //     cin>>nos;
+    //     cout<<hash[nos];
+    // }
+    // return 0;
+
+    
+
 }
