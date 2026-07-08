@@ -2,6 +2,27 @@
 #include <algorithm>
 #include <array>
 using namespace std;
+int binary_search(int n, int arr[], int target)
+{
+    int low = 0;
+    int high = n - 1;
+
+    while (low <= high)
+    {
+        int mid = low + (high - low) / 2;
+
+        if (arr[mid] == target)
+            return mid;
+
+        else if (arr[mid] < target)
+            low = mid + 1;
+
+        else
+            high = mid - 1;
+    }
+
+    return -1;
+}
 int main(){
     // int arr[5];
     // cin>>arr[0]>>arr[1]>>arr[2]>>arr[3]>>arr[4];
@@ -20,23 +41,25 @@ int main(){
     // cout<<arr[0][2]<<endl;
     
 
-    int arr[]={1,0,2,3,2,0,0,4,5};
-    int n=sizeof(arr)/sizeof(arr[0]);
-    int j=-1;
-    for (int i=0;i<n;i++){
-        if(arr[i]==0){
-            j=i;
-            break;
-        }
-    }
-    for (int i=j+1;i<n;i++){
-        if (arr[i]!=0){
-            swap(arr[i],arr[j]);
-            j++; 
-        }
-    }
-    for (int i=0;i<n;i++){
-        cout<<arr[i]<<" ";
-    }
+    // int arr[]={1,0,2,3,2,0,0,4,5};
+    // int n=sizeof(arr)/sizeof(arr[0]);
+    // int j=-1;
+    // for (int i=0;i<n;i++){
+    //     if(arr[i]==0){
+    //         j=i;
+    //         break;
+    //     }
+    // }
+    // for (int i=j+1;i<n;i++){
+    //     if (arr[i]!=0){
+    //         swap(arr[i],arr[j]);
+    //         j++; 
+    //     }
+    // }
+    // for (int i=0;i<n;i++){
+    //     cout<<arr[i]<<" ";
+    // }
+
+    
     
 }
